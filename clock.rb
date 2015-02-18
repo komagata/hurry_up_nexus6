@@ -27,9 +27,6 @@ handler do |job, time|
       to       ENV['MAIL_SEND_TO']
       subject  'Nexus6 is now available!'
       body     "Go fast! #{NEXUS6_URL}"
-
-
-
     end
   else
     puts 'Not available...'
